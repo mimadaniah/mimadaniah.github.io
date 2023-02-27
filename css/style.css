@@ -607,9 +607,33 @@ img{
     background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.kepala-sm{
+	 display: none;
+	 visibility: hidden;
+ }
+ 
  @media screen and (max-width:750px) {
 .mbahmoen {
 	padding-left:0;
 	padding-bottom: 20px;
-background-size: 40%;}
+	background-size: 40%;}
+	
+.kepala-sm{
+	 display: block;
+	 visibility: visible;
+	 margin-top: 0;
  }
+ .kepala-md{
+	 display: none;
+	 visibility: hidden;
+ }
+ }
+ 
+ .bse-img {
+	 width: 100%;
+ }
+ 
+
+ 
+ 
