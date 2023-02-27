@@ -2,12 +2,12 @@ var multiFeed = {
     feedsUri: [
         {
             name: "ARTIKEL TERBARU",
-            url: "https://mimadaniah.my.id/",
+            url: "https://blog.mimadaniah.my.id/",
             tag: "Artikel"
         },
 		{
             name: "INFORMASI MADRASAH",
-            url: "https://mimadaniah.my.id/",
+            url: "https://blog.mimadaniah.my.id/",
             tag: "Informasi"
         }
     ],
