@@ -607,3 +607,9 @@ img{
     background-repeat: no-repeat;
 	background-size: cover;
 }
+ @media screen and (max-width:750px) {
+.mbahmoen {
+	padding-left:0;
+	padding-bottom: 20px;
+background-size: 40%;}
+ }
