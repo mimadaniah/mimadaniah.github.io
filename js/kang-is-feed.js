@@ -1,49 +1,34 @@
 var multiFeed = {
     feedsUri: [
         {
-            name: "AMPHTML",
-            url: "https://www.kang-ismet.com/",
-            tag: "AMPHTML"
+            name: "Artikel",
+            url: "https://www.mimadaniah.my.id/",
+            tag: "Artikel"
         },
         {
-            name: "Umum",
-            url: "https://www.kang-ismet.com/",
-            tag: "Blogger Tutorial"
+            name: "Informasi",
+            url: "https://www.mimadaniah.my.id/",
+            tag: "Informasi"
         },
         {
-            name: "jQuery",
-            url: "https://www.kang-ismet.com/",
-            tag: "jQuery"
+            name: "Materi",
+            url: "https://www.mimadaniah.my.id/",
+            tag: "Materi"
         },
         {
-            name: "Javascript",
-            url: "https://www.kang-ismet.com/",
-            tag: "Javascript"
+            name: "Contoh Soal",
+            url: "https://www.mimadaniah.my.id/",
+            tag: "Contoh Soal"
         },
         {
-            name: "DISQUS",
-            url: "https://www.kang-ismet.com/",
-            tag: "Disqus"
+            name: "Soal Jawab",
+            url: "https://www.mimadaniah.my.id/",
+            tag: "Soal Jawab"
         },
         {
-            name: "HTML5",
-            url: "https://www.kang-ismet.com/",
-            tag: "HTML5"
-        },
-        {
-            name: "CSS",
-            url: "https://www.kang-ismet.com/",
-            tag: "CSS"
-        },
-        {
-            name: "Widget",
-            url: "https://www.kang-ismet.com/",
-            tag: "Widget"
-        },
-        {
-            name: "SEO",
-            url: "https://www.kang-ismet.com/",
-            tag: "SEO"
+            name: "Tutorial",
+            url: "https://www.mimadaniah.my.id/",
+            tag: "Tutorial"
         }
     ],
     numPost: 4,
@@ -56,6 +41,6 @@ var multiFeed = {
     containerId: "feed-list-container",
     readMore: {
         text: "Selengkapnya",
-        endParam: "?max-results=8"
+        endParam: "?max-results=10"
     }
 };
