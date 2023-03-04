@@ -2,32 +2,32 @@ var multiFeed = {
     feedsUri: [
         {
             name: "Artikel",
-            url: "https://www.mimadaniah.my.id/",
+            url: "https://blog.mimadaniah.my.id/",
             tag: "Artikel"
         },
         {
             name: "Informasi",
-            url: "https://www.mimadaniah.my.id/",
+            url: "https://blog.mimadaniah.my.id/",
             tag: "Informasi"
         },
         {
             name: "Materi",
-            url: "https://www.mimadaniah.my.id/",
+            url: "https://blog.mimadaniah.my.id/",
             tag: "Materi"
         },
         {
             name: "Contoh Soal",
-            url: "https://www.mimadaniah.my.id/",
+            url: "https://blog.mimadaniah.my.id/",
             tag: "Contoh Soal"
         },
         {
             name: "Soal Jawab",
-            url: "https://www.mimadaniah.my.id/",
+            url: "https://blog.mimadaniah.my.id/",
             tag: "Soal Jawab"
         },
         {
             name: "Tutorial",
-            url: "https://www.mimadaniah.my.id/",
+            url: "https://blog.mimadaniah.my.id/",
             tag: "Tutorial"
         }
     ],
