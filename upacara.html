@@ -6,14 +6,14 @@
     <title>Upacara MI Madaniah</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="sarana, prasarana, guru mi" name="keywords">
-    <meta content="Upacara MI MadaniahMI Madaniah Cipanengah" name="description">
+    <meta content="Upacara MI Madaniah Cipanengah" name="description">
 	
 	<!-- Open graph -->
 	<meta property="og:url" content="https://mimadaniah.my.id/upacara.html" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Upacara Cipanengah" />
-	<meta property="og:description" content="Sarana & Prasarana MI Madaniah Cipanengah" />
-	<meta property="og:image" content="https://mimadaniah.my.id/img/cat-4.jpg" />
+	<meta property="og:title" content="Upacara Bendera" />
+	<meta property="og:description" content="Upacara Bendera Hari Senin MI Madaniah" />
+	<meta property="og:image" content="https://mimadaniah.my.id/img/upacara7.jpg" />
 	
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -36,7 +36,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="css/plyr.css" />
 </head>
 
 <body>
@@ -114,16 +114,49 @@
     <div class="container-lg">	
         <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">		
 			<div class="col position-relative wow fadeInUp" data-wow-delay="0.1s">
-				<img src="img/upacara1.jpg" class="gallery-item" alt="Upacara">
+				<img src="img/upacara7.jpg" class="gallery-item" alt="Upacara">
            </div>
            <div class="col position-relative wow fadeInUp" data-wow-delay="0.3s">
+				<img src="img/upacara5.jpg" class="gallery-item" alt="Upacara">
+           </div>
+		   <div class="col position-relative wow fadeInUp" data-wow-delay="0.5s">
+				<img src="img/upacara6.jpg" class="gallery-item" alt="Upacara">
+           </div>
+		   <div class="col position-relative wow fadeInUp" data-wow-delay="0.7s">
+				<img src="img/upacara8.jpg" class="gallery-item" alt="Upacara">
+           </div>
+		   <div class="col position-relative wow fadeInUp" data-wow-delay="0.9s">
+				<img src="img/upacara9.jpg" class="gallery-item" alt="Upacara">
+           </div>
+		   <div class="col position-relative wow fadeInUp" data-wow-delay="1.1s">
+				<img src="img/upacara4.jpg" class="gallery-item" alt="Upacara">
+           </div>
+		   <div class="col position-relative wow fadeInUp" data-wow-delay="1.3s">
+				<img src="img/upacara10.jpg" class="gallery-item" alt="Upacara">
+           </div>
+		   <div class="col position-relative wow fadeInUp" data-wow-delay="1.5s">
+				<img src="img/upacara1.jpg" class="gallery-item" alt="Upacara">
+           </div>
+		   <div class="col position-relative wow fadeInUp" data-wow-delay="1.7s">
 				<img src="img/upacara2.jpg" class="gallery-item" alt="Upacara">
            </div>
+		 
+		 
+		<div class="col mx-auto position-relative wow fadeInUp" data-wow-delay="1.9s">
+			<video class="js-player" controls crossorigin playsinline data-poster="https://mimadaniah.my.id/img/upacara-thumb.jpg">
+				<source src="https://mimadaniah.my.id/video/upacara.mp4" type="video/mp4"/>
+			</video>
+        </div>
+		
+	</div> 
+
     </div>
 	<br/>
 	<div>
+	
 		<a href="gallery.html"><i class="fa fa-arrow-left text-primary me-2"></i>Kembali</a>
 	</div>
+	
   </section>
 
 
@@ -213,6 +246,11 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/plyr.js"></script>
+<script>
+const players = Array.from(document.querySelectorAll('.js-player')).map(p => new Plyr(p));
+const plyrs = Array.from(document.querySelectorAll('.js-plyr')).map(plyrs => new Plyr(plyrs));
+</script>
 </body>
 
 </html>
