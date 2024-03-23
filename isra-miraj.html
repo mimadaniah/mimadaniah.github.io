@@ -36,6 +36,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/plyr.css" />
 
 </head>
 
@@ -114,59 +115,49 @@
     <div class="container-lg">	
 		<div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
 			<div class="col position-relative wow fadeInUp" data-wow-delay="0.1s">
-				<img src="img/isra-miraj4.jpg" class="gallery-item" alt="Vaksin Covid-19">
+				<img src="img/isra-miraj4.jpg" class="gallery-item" alt="Isra Mi'raj">
            </div>
            <div class="col position-relative wow fadeInUp" data-wow-delay="0.3s">
-				<img src="img/isra-miraj3.jpg" class="gallery-item" alt="Vaksin Covid-19">
+				<img src="img/isra-miraj3.jpg" class="gallery-item" alt="Isra Mi'raj">
            </div>
 		   <div class="col position-relative wow fadeInUp" data-wow-delay="0.5s">
-				<img src="img/isra-miraj2.jpg" class="gallery-item" alt="Vaksin Covid-19">
+				<img src="img/isra-miraj2.jpg" class="gallery-item" alt="Isra Mi'raj">
            </div>
 		   <div class="col position-relative wow fadeInUp" data-wow-delay="0.1s">
-				<div class="video-responsive">
-					<video class="gdriveVideo" preload="auto" controls>
-						<source src="https://drive.google.com/uc?export=download&id=1YVzzePAQHHUvgOBtFkJwZlqsgSyyV3PV" type='video/mp4'>
-					</video>
-				</div>
+				<video class="js-player" controls crossorigin playsinline data-poster="https://mimadaniah.my.id/img/ceramah-isramiraj.jpg">
+						<source src="https://mimadaniah.my.id/video/ceramah.mp4" type="video/mp4"/>
+				</video>
            </div>
 		   <div class="col position-relative wow fadeInUp" data-wow-delay="0.3s">
-				<div class="video-responsive">
-					<video class="gdriveVideo" preload="auto" controls>
-						<source src="https://drive.google.com/uc?export=download&id=1Zb3s5Uic4Zoy63IyfkhiqD9vzxq8jbg_" type='video/mp4'>
-					</video>
-				</div>
+				<video class="js-player" controls crossorigin playsinline data-poster="https://mimadaniah.my.id/img/hafalan.jpg">
+					<source src="https://mimadaniah.my.id/video/hafalan.mp4" type="video/mp4"/>
+				</video>
            </div>
 		   <div class="col position-relative wow fadeInUp" data-wow-delay="0.5s">
-				<div class="video-responsive">
-					<video class="gdriveVideo" preload="auto" controls>
-						<source src="https://drive.google.com/uc?export=download&id=10lYnsC12ue4YyptOr0rlQD0f4gMANt3q" type='video/mp4'>
-					</video>
-				</div>
+				<video class="js-player" controls crossorigin playsinline data-poster="https://mimadaniah.my.id/img/hafalan2.jpg">
+					<source src="https://mimadaniah.my.id/video/hafalan2.mp4" type="video/mp4"/>
+				</video>
            </div>
 		   <div class="col position-relative wow fadeInUp" data-wow-delay="0.5s">
-				<div class="video-responsive">
-					<video class="gdriveVideo" preload="auto" controls>
-						<source src="https://drive.google.com/uc?export=download&id=1i6oQajNa87dAco7C_q7ccrQ8XW2S0N-w" type='video/mp4'>
-					</video>
-				</div>
+				<video class="js-player" controls crossorigin playsinline data-poster="https://mimadaniah.my.id/img/imriti.jpg">
+					<source src="https://mimadaniah.my.id/video/imriti.mp4" type="video/mp4"/>
+				</video>
            </div>
 		   <div class="col position-relative wow fadeInUp" data-wow-delay="0.5s">
-				<div class="video-responsive">
-					<video class="gdriveVideo" preload="auto" controls>
-						<source src="https://drive.google.com/uc?export=download&id=1NIfGyL7pa9Iov-m0kqDLrbnMlRog_4Ax" type='video/mp4'>
-					</video>
-				</div>
+				<video class="js-player" controls crossorigin playsinline data-poster="https://mimadaniah.my.id/img/tari3.jpg">
+					<source src="https://mimadaniah.my.id/video/tari.mp4" type="video/mp4"/>
+				</video>
            </div>
 		   <div class="col position-relative wow fadeInUp" data-wow-delay="0.5s">
 				<img src="img/rajaban.jpg" class="gallery-item" alt="Vaksin Covid-19">
            </div>
+		   
     </div>
 	<br/>
 	<div>
 		<a href="gallery.html"><i class="fa fa-arrow-left text-primary me-2"></i>Kembali</a>
 	</div>
   </section>
-
 
 <!-- Modal -->
 <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -254,6 +245,11 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/plyr.js"></script>
+<script>
+const players = Array.from(document.querySelectorAll('.js-player')).map(p => new Plyr(p));
+const plyrs = Array.from(document.querySelectorAll('.js-plyr')).map(plyrs => new Plyr(plyrs));
+</script>
 </body>
 
 </html>
